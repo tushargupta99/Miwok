@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="16dp"
+    android:elevation="4dp"
+    tools:context="com.example.tushar.myapplication.MainActivity">
+
+
+    <TextView
+        android:id="@+id/numbers"
+        android:text="Numbers"
+        android:background="@color/mainactivity_numbers"
+        style="@style/mainactivity_content" />
+    <TextView
+        android:id="@+id/colors"
+        android:text="Colors"
+        android:background="@color/mainactivity_colors"
+        style="@style/mainactivity_content"/>
+
+    <TextView
+        android:id="@+id/familymembers"
+        style="@style/mainactivity_content"
+        android:background="@color/mainactivity_familymembers"
+        android:text="Family Members"/>
+
+    <TextView
+        android:id="@+id/phrases"
+        style="@style/mainactivity_content"
+        android:background="@color/mainactivity_phrases"
+        android:text="Phrases"/>
+</LinearLayout>
